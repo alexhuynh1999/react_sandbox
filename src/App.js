@@ -1,18 +1,24 @@
 import React from 'react'
+import './App.css'
 
 const App = () => {
     return (
-        <div className="cotainer">
-            <div className="sidebar">
-                <a hred="#">Budget Name</a>
-                <a hred="#">Budget</a>
-                <a hred="#">Reports</a>
-                <a hred="#">All Accounts</a>
-                <a hred="#">Budget</a>
-                <a hred="#">Add Account</a>
-            </div>
+        <div className="container">
+            <aside className="sidebar">
+                <nav className="menu">
+                    <a href="#/" className='menu-item'>Budget Name</a>
+                    <a href="#/" className='menu-item'>Budget</a>
+                    <a href="#/" className='menu-item'>Reports</a>
+                    <a href="#/" className='menu-item'>All Accounts</a>
+                    <a href="#/" className='menu-item'>Budget</a>
+                    <a href="#/" className='menu-item'>Add Account</a>
+                </nav>
+            </aside>
 
-            <h1>Hello Alex!</h1>
+            <div className='content'>
+                <h1>Hello Alex!</h1>
+                <p>This is a sentence.</p>
+            </div>
         </div>
     )
 }
